@@ -10,61 +10,83 @@
     </style>
 </head>
 <body>
-    <h1 id="titulo">Cris Bakes It</h1>
-    <h2 id="logo">Brownies</h2>
-    <h3 id="texto">Handmade brownies</h3>
-    <h4 id="texto">La vida es dulce, disfruta cada mordisco</h4>
-    <h5>Delivery Lun a Dom</h5>
-    <h5>Lima-Perú</h5>
-    <hr>
-    <h3>¡Bienvenido brownielover!</h3>
-    <p>Conoce nuestro <span style="color:fuchsia">sabores</span> y elige tu favorito!</p>
-    <ul>
-        <li>Sabor 1</li>
-        <li>Sabor 2</li>
-        <li>Sabor 3</li>
-        <li>Sabor 4</li>
-    </ul>
-
-        <table>
-            <thead>
-                <tr>
-                    <th>Producto</th>
-                    <th>Precio</th>
+    <header>
+        <h1 id="titulo">Cris Bakes It</h1>
+        <h2 id="texto">Handmade brownies</h2>
+    </header>
+    <section>
+        <article class="post">
+            <h3 id="texto">Información de contacto</h3>
+            <p>La vida es dulce, disfruta cada mordisco</p>
+            <p>Delivery Lun a Dom</p>
+            <p>Lima-Perú</p>
+        </article>
+        <article class="post">
+            <h3 id="texto">Catálogo</h3>
+            <p>¡Conoce nuestro sabores y elige <span style="color:fuchsia">tu favorito</span>!</p>
+            <img src="img/Sabores.png" width="400"/>
+        </article>
+        <article class="post">
+            <h3 id="texto">¡Bienvenido brownielover!</h3>
+            <p>¡Conoce nuestros precios</p>
+            <ul>
+                <li>Sabor 1</li>
+                <li>Sabor 2</li>
+                <li>Sabor 3</li>
+                <li>Sabor 4</li>
+            </ul>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td>Classic Brownie</td>
+                    <td>S/.12</td>
                 </tr>
-            </thead>
-            <tbody>
                 <tr>
-                <td>Classic Brownie</td>
-                <td>S/.12</td>
-            </tr>
-            <tr>
-                <td>Classic Brownie</td>
-                <td>S/.12</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <td></td>
-            <td>Total: S/.24</td>
-        </tfoot>
-        </table>
-    <!-- Este texto es un comentario y no va a aparecer en el
-    explorador -->
-    <img src="img/Sabores.png" width="400"/>
-    <br>
-    <a target="_blank" href="https://www.instagram.com/crisbakesit/?hl=es">Ir a Instagram</a>
-    <form action="/formulario" method="post">
-        <label for="nombre">Nombre</label>
-        <input type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+                    <td>Classic Brownie</td>
+                    <td>S/.12</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td></td>
+                <td>Total: S/.24</td>
+            </tfoot>
+            </table>
+        <!-- Este texto es un comentario y no va a aparecer en el
+        explorador -->
+        </article>
+        <article class="post">
+            <br>
+            <form action="/formulario" method="post">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+                <br>
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" name="apellido" placeholder="Apellido"/>
+                <br>
+                <label for="comentario">Comentario</label>
+                <br>
+                <textarea cols="50" rows="10" id="comentario" name="comentario" placeholder="Ingrese comentario"></textarea>
+                <br>
+                <input type="submit" />
+            </form>
+        </article>
+    </section>
+    <footer>
+        <a href="#titulo">Ir al comienzo</a>
         <br>
-        <label for="apellido">Apellido</label>
-        <input type="text" id="apellido" name="apellido" placeholder="Apellido"/>
+        <a href="mailto:muedasanacristina@gmail.com">Contáctanos aqui</a>
         <br>
-        <label for="comentario">Comentario</label>
-        <br>
-        <textarea cols="50" rows="10" id="comentario" name="comentario" placeholder="Ingrese comentario"></textarea>
-        <br>
-        <input type="submit" />
-    </form>
+        <a target="_blank" href="https://www.instagram.com/crisbakesit/?hl=es">Visita nuestro Instagram</a>
+        <p>Copyright 2023</p>
+    </footer>
+    
+   
+    
 </body>
 </html>
