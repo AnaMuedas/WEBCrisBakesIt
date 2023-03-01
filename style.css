@@ -1,0 +1,15 @@
+#titulo {
+    color:#8a2be2;
+}
+
+p.texto {
+    color: chocolate;
+}
+
+p.logo {
+    color: #8a2be2;
+}
+
+div p {
+    color: aquamarine;
+}
