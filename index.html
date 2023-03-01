@@ -3,15 +3,68 @@
 <head>
     <title>CrisBakesIt</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+        table, th, td {
+            border: 1px solid black
+        }
+    </style>
 </head>
 <body>
     <h1 id="titulo">Cris Bakes It</h1>
-    <h2 class="texto logo">Brownies</h2>
-    <h3 class="texto">Handmade brownies</h3>
-    <h4 class="texto">Bienvenido brownielover!</h4>
-    <div>
-        <p>Conoce nuestros brownies</p>
-        <h2></h2>
-    </div>
+    <h2 id="logo">Brownies</h2>
+    <h3 id="texto">Handmade brownies</h3>
+    <h4 id="texto">La vida es dulce, disfruta cada mordisco</h4>
+    <h5>Delivery Lun a Dom</h5>
+    <h5>Lima-Perú</h5>
+    <hr>
+    <h3>¡Bienvenido brownielover!</h3>
+    <p>Conoce nuestro <span style="color:fuchsia">sabores</span> y elige tu favorito!</p>
+    <ul>
+        <li>Sabor 1</li>
+        <li>Sabor 2</li>
+        <li>Sabor 3</li>
+        <li>Sabor 4</li>
+    </ul>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Classic Brownie</td>
+                <td>S/.12</td>
+            </tr>
+            <tr>
+                <td>Classic Brownie</td>
+                <td>S/.12</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: S/.24</td>
+        </tfoot>
+        </table>
+    <!-- Este texto es un comentario y no va a aparecer en el
+    explorador -->
+    <img src="img/Sabores.png" width="400"/>
+    <br>
+    <a target="_blank" href="https://www.instagram.com/crisbakesit/?hl=es">Ir a Instagram</a>
+    <form action="/formulario" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Apellido"/>
+        <br>
+        <label for="comentario">Comentario</label>
+        <br>
+        <textarea cols="50" rows="10" id="comentario" name="comentario" placeholder="Ingrese comentario"></textarea>
+        <br>
+        <input type="submit" />
+    </form>
 </body>
 </html>
