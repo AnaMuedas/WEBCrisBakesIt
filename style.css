@@ -40,6 +40,11 @@ section article h2, section article p {
     margin: 1rem;
 }
 
+section article table {
+    margin: 0 auto;
+    
+}
+
 footer {
     background-color: mediumpurple;
     padding: 3rem;
